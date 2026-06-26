@@ -15,7 +15,7 @@ st.set_page_config(
 try:
     st.sidebar.image("logo.fjfi", use_container_width=True)
 except:
-    st.sidebar.warning("⚠️ Không tìm thấy file 'logo.png'. Vui lòng kiểm tra lại đường dẫn.")
+    st.sidebar.warning("⚠️ Không tìm thấy file 'logo.fjfi'. Vui lòng kiểm tra lại đường dẫn.")
 
 st.sidebar.title("Điều Hướng Hệ Thống")
 menu = st.sidebar.radio(
