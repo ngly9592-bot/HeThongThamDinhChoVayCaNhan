@@ -13,7 +13,7 @@ st.set_page_config(
 
 # Chèn Logo và Tiêu đề vào Sidebar
 try:
-    st.sidebar.image("logo.png", use_container_width=True)
+    st.sidebar.image("logo.fjfi", use_container_width=True)
 except:
     st.sidebar.warning("⚠️ Không tìm thấy file 'logo.png'. Vui lòng kiểm tra lại đường dẫn.")
 
